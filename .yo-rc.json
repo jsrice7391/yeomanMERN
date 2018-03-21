@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Justin Rice",
+      "authorEmail": "jsrice7391@gmail.com",
+      "authorUrl": "jsrice7391.github.io"
+    }
+  }
+}
