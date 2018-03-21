@@ -15,7 +15,7 @@ module.exports = class extends Generator {
         )} generator!`
       )
     );
-
+    // THis is the series of questions that the user will be asked. We will then capture the users answers after they are prompted
     const prompts = [
       {
         type: 'input',
