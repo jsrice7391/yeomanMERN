@@ -44,11 +44,19 @@ module.exports = class extends Generator {
           this.templatePath('_server.js'),
           this.destinationPath('server.js')
         );
+        this.fs.copyTpl(this.templatePath('_models'), this.destinationPath('models'));
+        this.fs.copyTpl(this.templatePath('_routes'), this.destinationPath('routes'));
+        this.fs.copyTpl(this.templatePath('_public'), this.destinationPath('public'));
+
+        this.fs.copyTpl(
+          this.templatePath('_server.js'),
+          this.destinationPath('server.js')
+        );
       }
     };
   }
 
   install() {
-    this.installDependencies({ npm: true, bower: false, yarn: false });
+    this.installDependencies({ npm: false, bower: false, yarn: true });
   }
 };

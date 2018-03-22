@@ -19,8 +19,6 @@ app.use(cors());
 // Add routes, both API and view
 app.use(routes);
 
-module.exports.app = app;
-
 
 // Set up promises with mongoose
 mongoose.Promise = global.Promise;
