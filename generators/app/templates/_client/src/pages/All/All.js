@@ -7,7 +7,7 @@ import { Col, Row, Container } from "../../components/Grid";
 import { List, ListItem } from "../../components/List";
 import { Input, TextArea, FormBtn } from "../../components/Form";
 
-class Books extends Component {
+class All extends Component {
   state = {
     books: [],
     title: "",
@@ -115,4 +115,4 @@ class Books extends Component {
   }
 }
 
-export default Books;
+export default All;
