@@ -30,15 +30,21 @@ module.exports = class extends Generator {
     });
   }
 
-  writing() {
-    () => {
-      this.fs.copyTpl(
-        this.templatePath('_package.json'),
-        this.destinationPath('package.json'),
-        {
-          name: this.props.name
-        }
-      );
+  get writing() {
+    return {
+      config() {
+        this.fs.copyTpl(
+          this.templatePath('_package.json'),
+          this.destinationPath('package.json'),
+          { name: this.props.name }
+        );
+      },
+      app() {
+        this.fs.copyTpl(
+          this.templatePath('_server.js'),
+          this.destinationPath('server.js')
+        );
+      }
     };
   }
 
