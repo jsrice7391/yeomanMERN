@@ -1,7 +1,7 @@
 {
-  "name": "mern",
+  "name": "<%= name %>",
   "version": "1.0.0",
-  "description": "",
+  "description": "<%= desc %>",
   "main": "server.js",
   "scripts": {
     "server": "node server.js",
@@ -12,7 +12,7 @@
     "test": "npm test",
     "installDeps": "yarn && cd client && yarn"
   },
-  "author": "",
+  "author": "<%= author %>",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^3.5.1",
