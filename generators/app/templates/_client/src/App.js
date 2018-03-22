@@ -10,7 +10,7 @@ const App = () =>
       <Nav />
       <Switch>
       {/* Put your routes here using the React Router */}
-        {/* <Route exact path="/" component={Books} /> */}
+        {/* <Route exact path="/" component={items} /> */}
       </Switch>
     </div>
   </Router>;
