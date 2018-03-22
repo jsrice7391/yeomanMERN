@@ -1,40 +1,30 @@
 {
-    "name": "<%= name %>",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-        "server": "node server.js",
-        "client": "node scripts/start-client.js",
-        "start": "concurrently \"nodemon server.js\" \"npm run client\"",
-        "build": "node scripts/build.js",
-        "seed": "node scripts/seedDB.js",
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "installDeps": "yarn && cd client && yarn"
-    },
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "concurrently": "^3.5.1",
-        "nodemon": "^1.11.0"
-    },
-    "dependencies": {
-        "axios": "^0.18.0",
-        "body-parser": "^1.18.2",
-        "cheerio": "^1.0.0-rc.2",
-        "express": "^4.16.2",
-        "mongodb": "^3.0.2",
-        "mongoose": "^5.0.6",
-        "mongoose-unique-validator": "^2.0.0",
-        "morgan": "^1.9.0",
-        "react-materialize": "^1.1.2",
-        "request": "^2.83.0",
-        "socket-io": "^1.0.0",
-        "socket.io": "^2.0.4"
-    }
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node scripts/start-client.js",
+    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "build": "node scripts/build.js",
+    "seed": "node scripts/seedDB.js",
+    "test": "npm test",
+    "installDeps": "yarn && cd client && yarn"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.11.0",
+    "mocha":"2.3.1",
+    "chai":"3.2.0",
+    "chai-http":"1.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.7"
+  }
 }
-    
-    
-
-
-
