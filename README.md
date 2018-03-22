@@ -7,13 +7,13 @@ First, install [Yeoman](http://yeoman.io) and generator-mern-stack-generator usi
 
 ```bash
 npm install -g yo
-npm install -g generator-mern-stack-generator
+npm install -g generator-YoMern
 ```
 
 Then generate your new project:
 
 ```bash
-yo mern-stack-generator
+yo YoMern
 ```
 
 ## Getting To Know Yeoman
