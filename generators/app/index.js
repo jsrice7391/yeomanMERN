@@ -65,6 +65,10 @@ module.exports = class extends Generator {
         this.fs.copyTpl(this.templatePath('_routes'), this.destinationPath('routes'));
         this.fs.copyTpl(this.templatePath('_client'), this.destinationPath('client'));
         this.fs.copyTpl(this.templatePath('_scripts'), this.destinationPath('scripts'));
+        this.fs.copyTpl(
+          this.templatePath('_controllers'),
+          this.destinationPath('controllers')
+        );
       }
     };
   }

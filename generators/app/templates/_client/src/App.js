@@ -1,18 +1,20 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Detail from "./pages/Detail";
+import Home from "./pages/Home";
 import NoMatch from "./pages/NoMatch";
-import Nav from "./components/Nav";
+import DocumentTitle from "react-document-title";
 
-const App = () =>
-  <Router>
-    <div>
-      <Nav />
-      <Switch>
-      {/* Put your routes here using the React Router */}
-        {/* <Route exact path="/" component={items} /> */}
-      </Switch>
-    </div>
-  </Router>;
+const App = () => (
+  <DocumentTitle title="My React Homepage">
+    <Router>
+      <div>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route component={NoMatch}/>
+        </Switch>
+      </div>
+    </Router>
+  </DocumentTitle>
+);
 
 export default App;
