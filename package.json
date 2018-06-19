@@ -38,7 +38,8 @@
     "chalk": "^2.1.0",
     "npm": "^5.7.1",
     "yeoman-generator": "^2.0.1",
-    "yosay": "^2.0.1"
+    "yosay": "^2.0.1",
+    "snyk": "^1.83.0"
   },
   "jest": {
     "testEnvironment": "node"
@@ -47,7 +48,9 @@
     "prepublish": "nsp check",
     "pretest": "eslint .",
     "precommit": "lint-staged",
-    "test": "jest"
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "lint-staged": {
     "*.js": [
@@ -82,5 +85,6 @@
     ]
   },
   "repository": "jsrice7391/generator-mern-stack-generator",
-  "license": "unlicense"
+  "license": "unlicense",
+  "snyk": true
 }
