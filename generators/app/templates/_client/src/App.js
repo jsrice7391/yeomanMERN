@@ -3,9 +3,12 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import NoMatch from "./pages/NoMatch";
 import DocumentTitle from "react-document-title";
+import {Col,Row,Grid} from "react-bootstrap";
+
 
 const App = () => (
-  <DocumentTitle title="My React Homepage">
+  <DocumentTitle title="<%= name %>">
+  <Grid>
     <Router>
       <div>
         <Switch>
@@ -14,6 +17,7 @@ const App = () => (
         </Switch>
       </div>
     </Router>
+      </Grid>
   </DocumentTitle>
 );
 
