@@ -1,8 +1,8 @@
 {
   "name": "yo-yomern",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "description": "This creates a file structure using Mongo, React, Express and Node",
-  "homepage": "",
+  "homepage": "http://jsrice7391.github.io/",
   "author": {
     "name": "Justin Rice",
     "email": "jsrice7391@gmail.com",
