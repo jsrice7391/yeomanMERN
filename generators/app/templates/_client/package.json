@@ -1,5 +1,5 @@
 {
-  "name": "<%= name %>",
+  "name": "MERN App",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001/",

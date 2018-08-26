@@ -33,10 +33,14 @@ module.exports = class extends Generator {
         message: 'What is a brief description of the application?'
       }
     ];
-
     return this.prompt(prompts).then(props => {
       // This saves all of the answers to the question to the properties of this object.
-      this.props = props;
+      let modiProps = {
+        name: props.name.replace(/\s+/g, '-').toLowerCase(),
+        author: props.author,
+        desc: props.desc
+      };
+      this.props = modiProps;
     });
   }
 

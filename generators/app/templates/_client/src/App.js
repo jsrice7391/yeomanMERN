@@ -7,7 +7,7 @@ import {Col,Row,Grid} from "react-bootstrap";
 
 
 const App = () => (
-  <DocumentTitle title="<%= name %>">
+  <DocumentTitle title="My Mern App">
   <Grid>
     <Router>
       <div>
