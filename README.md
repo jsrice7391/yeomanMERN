@@ -1,4 +1,4 @@
-# YoMERN[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# YoYoMERN[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > This is a YeoMan generator that created a Mongo, Express, React, Redux and Node stack Application. 
 
 
@@ -8,7 +8,7 @@ First, install [Yeoman](http://yeoman.io) and generator-mern-stack-generator usi
 
 ```bash
 npm install -g yo
-npm install -g generator-YoMern
+npm install -g generator-yoyoMern
 ```
 
 Create a folder for your project. 
