@@ -8,13 +8,7 @@ const yosay = require('yosay');
 module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
-    this.log(
-      yosay(
-        `Welcome to the exquisite ${chalk.red(
-          'generator-mern-stack-generator'
-        )} generator!`
-      )
-    );
+    this.log(yosay(`Welcome to the exquisite ${chalk.red(`Yo-Mern`)} generator!`));
     // THis is the series of questions that the user will be asked. We will then capture the users answers after they are prompted
     const prompts = [
       {

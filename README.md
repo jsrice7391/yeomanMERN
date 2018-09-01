@@ -8,7 +8,7 @@ First, install [Yeoman](http://yeoman.io) and generator-mern-stack-generator usi
 
 ```bash
 npm install -g yo
-npm install -g generator-yoyoMern
+npm install -g generator-yoyomern
 ```
 
 Create a folder for your project. 
@@ -19,7 +19,7 @@ Then generate your new project:
 
 
 ```bash
-yo YoMern
+yo yoyomern
 ```
 
 The generator will ask you to name the application, give your name and then a description of the application.
