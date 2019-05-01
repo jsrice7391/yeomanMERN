@@ -57,7 +57,8 @@ module.exports = class extends Generator {
         this.fs.copyTpl(
           this.templatePath('_server.js'),
           this.destinationPath('server.js'),
-          this.destinationPath('.gitignore')
+          this.destinationPath('.gitignore'),
+          this.destinationPath('README.md')
         );
         // Writing out all of the folders from the templating folder
         this.fs.copyTpl(this.templatePath('_models'), this.destinationPath('models'));
