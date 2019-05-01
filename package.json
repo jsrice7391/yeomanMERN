@@ -1,6 +1,6 @@
 {
   "name": "generator-yoyomern",
-  "version": "0.0.9",
+  "version": "0.1.1",
   "description": "This creates a file structure using Mongo, React, Express and Node",
   "homepage": "https://github.com/jsrice7391/yeomanMERN",
   "author": {

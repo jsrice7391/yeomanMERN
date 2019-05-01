@@ -56,7 +56,8 @@ module.exports = class extends Generator {
         // Writing out the application
         this.fs.copyTpl(
           this.templatePath('_server.js'),
-          this.destinationPath('server.js')
+          this.destinationPath('server.js'),
+          this.destinationPath('.gitignore')
         );
         // Writing out all of the folders from the templating folder
         this.fs.copyTpl(this.templatePath('_models'), this.destinationPath('models'));
@@ -70,7 +71,6 @@ module.exports = class extends Generator {
       }
     };
   }
-
   install() {
     this.installDependencies({ npm: false, bower: false, yarn: true });
   }
