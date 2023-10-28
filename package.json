@@ -39,7 +39,7 @@
     "npm": "^6.4.0",
     "snyk": "^1.88.0",
     "yeoman-generator": "^2.0.5",
-    "yosay": "^2.0.1"
+    "yosay": "^3.0.0"
   },
   "jest": {
     "testEnvironment": "node"
