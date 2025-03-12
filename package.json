@@ -38,7 +38,7 @@
     "chalk": "^2.4.1",
     "npm": "^7.21.0",
     "snyk": "^1.996.0",
-    "yeoman-generator": "^7.4.0",
+    "yeoman-generator": "^7.5.0",
     "yosay": "^2.0.1"
   },
   "jest": {
