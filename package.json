@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "chalk": "^2.4.1",
-    "npm": "^9.6.3",
+    "npm": "^11.6.4",
     "snyk": "^1.1297.3",
     "yeoman-generator": "^7.5.0",
     "yosay": "^2.0.1"
